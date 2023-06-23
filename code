@@ -6,5 +6,5 @@
 6.git push -u origin master
 
 1.git add .
-2.git commit -m "first commit"
+2.git commit -m "added variables"
 3.git push -u origin master
