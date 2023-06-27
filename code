@@ -22,5 +22,5 @@
 3.git push -u origin master
 
 1.git add .
-2.git commit -m "simple python Bmi_calc"
+2.git commit -m "simple python BMI_calc"
 3.git push -u origin master
