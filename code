@@ -26,3 +26,5 @@
 3.git push -u origin master
 
 git commit -m "simple score system"
+
+git commit -m "betting system"
