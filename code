@@ -27,4 +27,8 @@
 
 git commit -m "simple score system"
 
-git commit -m "betting system"
+git commit -m "betting system statement"
+
+1.git add .
+2.git commit -m "Arth_BMI_calc"
+3.git push -u origin master
