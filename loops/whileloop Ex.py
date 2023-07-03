@@ -1,5 +1,5 @@
 r = int(input("enter number"))
-
-while r < 1000:
-    print(r)
+n = int(input("enter second number"))
+while r <= n:
+    print(n)
     r +=1
