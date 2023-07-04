@@ -1,0 +1,1 @@
+#oop is a paradigm or a way of writing code that makes it more reusable
