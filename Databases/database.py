@@ -18,22 +18,13 @@ class User(Model):
 
 User.create_table(fail_silently=True)
 
-from peewee import *
-from os import path
-
-connection = path.dirname(path.realpath(__file__))
-db = SqliteDatabase(path.join(connection, "Namusavi.db"))
-
-
-class User:
+class Student(Model):
     name = CharField()
-    phonenumber = CharField(unique=True)
-    age = CharField(int)
+    phonenumber = IntegerField()
+    age = IntegerField()
     gender = CharField()
-    studentcode = CharField(unique=True)
+    studentcode = IntegerField(unique=True)
 
     class Meta:
         database = db
-
-
-User.create_table(fail_silently=True)
+Student.create_table(fail_silently=True)

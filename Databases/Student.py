@@ -1,13 +1,14 @@
-from database import User
+from database import Student
 
 try:
     jina = input("Enter Name\n")
-    nambarisimu = input("Enter phone number\n")
+    nambariyasimu = input("Enter phone number\n")
     miaka = input("Enter age\n")
     jinsia = input("Enter gender\n")
     nambari = input("Enter phone student code\n")
-    User.create(name=jina, phonenumber=nambarisimu, miaka=age, gender=jinsia, studentcode=nambari)
-    print("User Created Successfully")
+
+    Student.create(name=jina, phonenumber=nambariyasimu, age=miaka, gender=jinsia, studentcode=nambari)
+    print("Student Created Successfully")
 
 except:
     print("Failed to Create User")
