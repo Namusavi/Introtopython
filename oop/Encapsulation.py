@@ -1,9 +1,11 @@
 class Base:
     def __init__(self):
         self.a ="I have rights"
-        self.c ="and priviledges"
+        self.c ="and privileges"
         self.d = "more rights"
         self.e = "and power"
+
+
 
 class Derived(Base):
     def __init__(self):
